@@ -16,6 +16,45 @@
 
 .coming_soon{
 	text-align: center;
+
+}
+
+.jumbotron{
 	background: none;
 
+	
+}
+.intro img{
+		width: 25vw;
+
+}
+
+.nav{
+
+		    background-color: white;
+
+}
+
+@media screen and (orientation: portrait) {
+
+	.mobile-hide{
+
+		    display:none;
+
+
+	}
+
+	.navcard{
+ 		margin-left: 0;
+
+	}
+}
+@media screen and (orientation: landscape) {
+
+	.desktop-hide{
+
+		    display:none;
+
+
+	}
 }
